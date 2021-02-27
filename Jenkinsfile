@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo 'Selamat datang di Jenkins Pipeline''
+                sh 'ls -l'
                 sh 'javac *.java'
                 sh 'java TestMobil'
             }
